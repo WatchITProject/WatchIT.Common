@@ -9,8 +9,8 @@ namespace WatchIT.Common.Accounts.Request
 {
     public class AuthenticateRequest
     {
-        [JsonPropertyName("username")]
-        public string Username { get; set; }
+        [JsonPropertyName("username_or_email")]
+        public string UsernameOrEmail { get; set; }
 
         [JsonPropertyName("password")]
         public string Password { get; set; }
