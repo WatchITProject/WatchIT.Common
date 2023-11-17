@@ -52,4 +52,4 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Publish
-      run: dotnet nuget push ${{ github.workspace}}/nuget/*.nupkg --source https://nuget.pkg.github.com/WatchITProject/index.json --api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate
+      run: dotnet nuget push ${{ github.workspace}}/nuget/*.nupkg --source https://nuget.pkg.github.com/WatchITProject/index.json --api-key ${{ secrets.NUGET_PACKAGE_TOKEN }} --skip-duplicate
