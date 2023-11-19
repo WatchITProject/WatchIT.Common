@@ -19,7 +19,7 @@ namespace WatchIT.Common.Movies.Request
         public string Description { get; set; }
 
         [JsonPropertyName("release_date")]
-        public DateTime ReleaseDate { get; set; }
+        public DateOnly ReleaseDate { get; set; }
 
         [JsonPropertyName("length")]
         public short Length { get; set; }
