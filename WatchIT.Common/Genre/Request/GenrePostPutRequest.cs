@@ -13,6 +13,6 @@ namespace WatchIT.Common.Genre.Request
         public string Name { get; set; }
 
         [JsonPropertyName("description")]
-        public string Description { get; set; }
+        public string? Description { get; set; }
     }
 }

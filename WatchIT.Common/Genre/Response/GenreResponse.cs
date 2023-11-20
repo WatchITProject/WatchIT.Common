@@ -16,6 +16,6 @@ namespace WatchIT.Common.Genre.Response
         public string Name { get; set; }
 
         [JsonPropertyName("description")]
-        public string Description { get; set; }
+        public string? Description { get; set; }
     }
 }
