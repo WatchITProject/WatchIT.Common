@@ -5,14 +5,17 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace WatchIT.Common.Genre.Request
+namespace WatchIT.Common.Webpage.AuthBackground.Response
 {
-    public class GenrePostPutRequest
+    public class AuthBackgroundResponse
     {
-        [JsonPropertyName("name")]
-        public string Name { get; set; }
+        [JsonPropertyName("id")]
+        public int Id { get; set; }
 
         [JsonPropertyName("description")]
         public string? Description { get; set; }
+
+        [JsonPropertyName("image")]
+        public byte[] Image { get; set; }
     }
 }
