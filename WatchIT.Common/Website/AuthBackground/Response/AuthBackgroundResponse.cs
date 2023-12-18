@@ -17,8 +17,5 @@ namespace WatchIT.Common.Website.AuthBackground.Response
 
         [JsonPropertyName("image")]
         public byte[] Image { get; set; }
-
-        [JsonPropertyName("upload_date")]
-        public byte[] Image { get; set; }
     }
 }
