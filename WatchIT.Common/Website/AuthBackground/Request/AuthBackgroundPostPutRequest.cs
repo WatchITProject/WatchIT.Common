@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace WatchIT.Common.Webpage.AuthBackground.Request
+namespace WatchIT.Common.Website.AuthBackground.Request
 {
     public class AuthBackgroundPostPutRequest
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace WatchIT.Common.Webpage.AuthBackground.Response
+namespace WatchIT.Common.Website.AuthBackground.Response
 {
     public class AuthBackgroundResponse
     {
@@ -16,6 +16,9 @@ namespace WatchIT.Common.Webpage.AuthBackground.Response
         public string? Description { get; set; }
 
         [JsonPropertyName("image")]
+        public byte[] Image { get; set; }
+
+        [JsonPropertyName("upload_date")]
         public byte[] Image { get; set; }
     }
 }
