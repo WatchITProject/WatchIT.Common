@@ -15,6 +15,9 @@ namespace WatchIT.Common.Website.AuthBackground.Response
         [JsonPropertyName("description")]
         public string? Description { get; set; }
 
+        [JsonPropertyName("content_type")]
+        public string ContentType { get; set; }
+
         [JsonPropertyName("image")]
         public byte[] Image { get; set; }
     }
