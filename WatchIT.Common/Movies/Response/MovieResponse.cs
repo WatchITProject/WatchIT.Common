@@ -33,5 +33,9 @@ namespace WatchIT.Common.Movies.Response
         [JsonProperty("length")]
         [JsonPropertyName("length")]
         public short? Length { get; set; }
+
+        [JsonProperty("average_rating")]
+        [JsonPropertyName("average_rating")]
+        public double AverageRating { get; set; }
     }
 }
