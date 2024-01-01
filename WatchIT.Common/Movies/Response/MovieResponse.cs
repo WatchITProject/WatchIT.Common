@@ -28,7 +28,7 @@ namespace WatchIT.Common.Movies.Response
 
         [JsonProperty("release_date")]
         [JsonPropertyName("release_date")]
-        public DateTime? ReleaseDate { get; set; }
+        public DateOnly? ReleaseDate { get; set; }
 
         [JsonProperty("length")]
         [JsonPropertyName("length")]
