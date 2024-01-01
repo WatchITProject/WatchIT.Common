@@ -24,10 +24,14 @@ namespace WatchIT.Common.Movies.Request
 
         [JsonProperty("release_date")]
         [JsonPropertyName("release_date")]
-        public DateOnly ReleaseDate { get; set; }
+        public DateOnly? ReleaseDate { get; set; }
 
         [JsonProperty("length")]
         [JsonPropertyName("length")]
-        public short Length { get; set; }
+        public short? Length { get; set; }
+
+        [JsonProperty("poster_image")]
+        [JsonPropertyName("poster_image")]
+        public byte[] PosterImage { get; set; }
     }
 }
