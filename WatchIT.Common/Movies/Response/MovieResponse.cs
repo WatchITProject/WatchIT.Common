@@ -44,6 +44,6 @@ namespace WatchIT.Common.Movies.Response
 
         [JsonProperty("poster_image")]
         [JsonPropertyName("poster_image")]
-        public byte[] PosterImage { get; set; }
+        public byte[]? PosterImage { get; set; }
     }
 }
